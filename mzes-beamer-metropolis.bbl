@@ -1,0 +1,280 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{cms/global/}
+    \entry{Downs1957c}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=edbc744b7095af3d7da169d97b58101d}{%
+           family={Downs},
+           familyi={D\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Harper}%
+      }
+      \strng{namehash}{edbc744b7095af3d7da169d97b58101d}
+      \strng{fullhash}{edbc744b7095af3d7da169d97b58101d}
+      \strng{authornamehash}{edbc744b7095af3d7da169d97b58101d}
+      \strng{authorfullhash}{edbc744b7095af3d7da169d97b58101d}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{From Duplicate 1 ( An Economic Theory of Democracy - Downs, Anthony ) And Duplicate 2 ( An Economic Theory of Democracy - Downs, Anthony ) Downs, Anthony. 1957. An Economic Theory of Democracy. New York, NY: Harper. Summary - Downs introduces an economic model of democracy: The behavior of voters, politicians, parties and governments is conceptualized as rational (i.e. utility-maximizing) actions in pursuit of goals of individual self-interest - This model is an abstraction of reality. Its purpose is not accurate contextual description, but adequate prediction of real world behavior (cf. Friedman 1953) An Economic Theory of Democracy - Decision-makers are rational and act rationally (to political and economic ends) within the framework of a predictable social order: 1) a democratic political structure 2) varying degrees of uncertainty 3) an electorate of rational voters - Parties are vote-seeking and seek political support for re-election - The party that wins an election controls the entire government until the next election Party Motivations and Social Functions of Government - A democratic government is defined as a distinct social agent with a specialized function in the division of labor. It has the monopoly of authoritative decision-making and coercive enforcement of its decisions - The purpose of elections is to elect a government. Parties, defined as coherent coalitions, seek control of the governing apparatus in elections - Self-interest: Party members are not interested in holding office for the sake of it but seek the benefits of office to attain (legal) private ends - Parties function is to formulate and carry out governmental policies when elected into government. Parties design policies to win elections, not vice versa The Logic of Voting - Circularity: Governments plan policies to gain votes, voters consider utility derived from government activity for vote choices - Voters base their expected utility of what the incumbent and the oppositional party will do at t + 1 on what the incumbent has done at t and what the opposition would have done had it been in power at t - Adjustments: Trend factor and performance rating (when party-utility-differential is zero) - Voter abstains when indifferent - In multiparty systems, voters might not vote sincerely, but pragmatically to keep the least preferred party from winning The Logic of Government Decision-Making - Government expenditures and financing are design attract as many and lose as few votes as possible - Government must also take into account the proposals made by the opposition: They are simultaneously engaged in vote maximization and political competition - Majority principle: Government chooses every action with the goal of supporting the majority on every issue - Opposition can match government on any issue - Opposition can take a contrary (i.e. minority) stand on a subset of issues if a majority of voters prefers the contrary stand to that of the government on some critical issues more strongly than the government stand on the remaining issues in this subset - Opposition can win if there is complete lack on consensus among the electorate (Arrow's problem) -Rule of the passionate majority: Do citizens in the majority have have greater preferences for majority issues than they do for other minority issues? - Majority rule in government policy formation applies when most citizens agree which issues agree which policies are important and if a majority of citizens agrees about the corresponding policies}
+      \field{title}{{An Economic Theory of Democracy}}
+      \field{year}{1957}
+      \verb{file}
+      \verb :C$\backslash$:/Users/denis/Dropbox/Uni/Mendeley Desktop/Downs/Unknown/Downs{\_}1957{\_}An Economic Theory of Democracy.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Gelman2007}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=1fd6540b91678ae8d3f51574305d2455}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{fullhash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{authornamehash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{authorfullhash}{602df721bcd10fe1eca95cb5554d134b}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Data Analysis Using Regression and Multilevel/Hierarchical Models}}
+      \field{year}{2007}
+      \verb{file}
+      \verb :C$\backslash$:/Users/denis/Dropbox/Uni/Mendeley Desktop/Gelman, Hill/Unknown/Gelman, Hill{\_}2007{\_}Data Analysis Using Regression and MultilevelHierarchical Models.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://scholar.google.com/scholar?hl=en%7B%5C&%7DbtnG=Search%7B%5C&%7Dq=intitle:Data+Analysis+Using+Regression+and+Multilevel%7B%5C#%7D1%20http://books.google.com/books?hl=en%7B%5C&%7Dlr=%7B%5C&%7Did=c9xLKzZWoZ4C%7B%5C&%7Doi=fnd%7B%5C&%7Dpg=PR17%7B%5C&%7Ddq=Data+Analysis+Using+Regression+and+Multilevel/Hierarchical+Models%7B%5C&%7Dots=b
+      \endverb
+    \endentry
+    \entry{Greene2003}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b413ae99fef7280db8bf3fa31d9f466b}{%
+           family={Greene},
+           familyi={G\bibinitperiod},
+           given={William\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{b413ae99fef7280db8bf3fa31d9f466b}
+      \strng{fullhash}{b413ae99fef7280db8bf3fa31d9f466b}
+      \strng{authornamehash}{b413ae99fef7280db8bf3fa31d9f466b}
+      \strng{authorfullhash}{b413ae99fef7280db8bf3fa31d9f466b}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Multiple Choices: Greene: Chapter 21 719-735 Count Data (Poisson, Negative Binomial, ZIP Model): Greene: Chapter 21 740-751 Bivariate Probit: Greene: Chapter 21. 710-718 Dynamic Multipliers: p. 420, p. 560 ARDL/stationarity: 572}
+      \field{edition}{5th}
+      \field{isbn}{0130661899}
+      \field{title}{{Econometric Analysis}}
+      \field{year}{2003}
+      \field{pages}{802}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/denis/Dropbox/Uni/Mendeley Desktop/Greene/Unknown/Greene{\_}2003{\_}Econometric Analysis.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://scholar.google.com/scholar?hl=en%7B%5C&%7DbtnG=Search%7B%5C&%7Dq=intitle:Econometric+Analysis%7B%5C#%7D0
+      \endverb
+    \endentry
+    \entry{Greene2012}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b413ae99fef7280db8bf3fa31d9f466b}{%
+           family={Greene},
+           familyi={G\bibinitperiod},
+           given={William\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{b413ae99fef7280db8bf3fa31d9f466b}
+      \strng{fullhash}{b413ae99fef7280db8bf3fa31d9f466b}
+      \strng{authornamehash}{b413ae99fef7280db8bf3fa31d9f466b}
+      \strng{authorfullhash}{b413ae99fef7280db8bf3fa31d9f466b}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{p. 600 (642): Weibull distribution p. 512 likelihood models for duration}
+      \field{edition}{7th}
+      \field{isbn}{9780131395381}
+      \field{title}{{Econometric Analysis}}
+      \field{year}{2012}
+      \field{pages}{1189}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/denis/Dropbox/Uni/Mendeley Desktop/Greene/Unknown/Greene{\_}2012{\_}Econometric Analysis.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://scholar.google.com/scholar?hl=en%7B%5C&%7DbtnG=Search%7B%5C&%7Dq=intitle:Econometric+Analysis%7B%5C#%7D0
+      \endverb
+    \endentry
+    \entry{KKV}{book}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=e62a3c431989b28a48ea18aa5cfcfbed}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=510df7dfa2800bb1f18b55342004b973}{%
+           family={Keohane},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=63212cdbac81056aded49c950d1dd6dc}{%
+           family={Verba},
+           familyi={V\bibinitperiod},
+           given={Sidney},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{33605a6ccb9611db3ff5b6ca217e6087}
+      \strng{fullhash}{33605a6ccb9611db3ff5b6ca217e6087}
+      \strng{authornamehash}{33605a6ccb9611db3ff5b6ca217e6087}
+      \strng{authorfullhash}{33605a6ccb9611db3ff5b6ca217e6087}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While heated arguments between practitioners of qualitative and quantitative research have begun to test the very integrity of the social sciences, Gary King, Robert Keohane, and Sidney Verba have produced a farsighted and timely book that promises to sharpen and strengthen a wide range of research performed in this field. These leading scholars, each representing diverse academic traditions, have developed a unified approach to valid descriptive and causal inference in qualitative research, where numerical measurement is either impossible or undesirable. Their book demonstrates that the same logic of inference underlies both good quantitative and good qualitative research designs, and their approach applies equally to each.Providing precepts intended to stimulate and discipline thought, the authors explore issues related to framing research questions, measuring the accuracy of data and uncertainty of empirical inferences, discovering causal effects, and generally improving qualitative research. Among the specific topics they address are interpretation and inference, comparative case studies, constructing causal theories, dependent and explanatory variables, the limits of random selection, selection bias, and errors in measurement. Mathematical notation is occasionally used to clarify concepts, but no prior knowledge of mathematics or statistics is assumed. The unified logic of inference that this book explicates will be enormously useful to qualitative researchers of all traditions and substantive fields.}
+      \field{chapter}{1}
+      \field{isbn}{0691034702}
+      \field{issn}{00943061}
+      \field{title}{{Designing Social Inquiry: Scientific Inference in Qualitative Research}}
+      \field{year}{1994}
+      \verb{doi}
+      \verb 10.2307/2076556
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/denis/Dropbox/Uni/Mendeley Desktop/King, Keohane, Verba/Unknown/King, Keohane, Verba{\_}1994{\_}Designing Social Inquiry Scientific Inference in Qualitative Research.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.loc.gov/catdir/toc/prin031/93039283.html
+      \endverb
+    \endentry
+    \entry{Stokes1963}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b56b4931524f197ef6b2cb228f84ddc9}{%
+           family={Stokes},
+           familyi={S\bibinitperiod},
+           given={Donald\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b56b4931524f197ef6b2cb228f84ddc9}
+      \strng{fullhash}{b56b4931524f197ef6b2cb228f84ddc9}
+      \strng{authornamehash}{b56b4931524f197ef6b2cb228f84ddc9}
+      \strng{authorfullhash}{b56b4931524f197ef6b2cb228f84ddc9}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{From Duplicate 1 ( Spatial Models of Party Competition - Stokes, Donald E ) - criticism of Downsian model: meaning of space is unclear (e.g. unidimensionality, stability of structure of space (is space continuous on all issues?), existence of ordered dimensions and common frame of reference for parties and electorate may be questioned) - positions issues: those that involve advocacy of government actions from a set of alternatives; valence issues: those that merely involve the linking of the parties with some condition that is positively or negatively valued by the electorate - proposal: "we should treat as explicit variables the cognitive phenomena that the prevailing model removes from the discussion by assumption. Bringing these variables into the model would lessen its elegance and parsimony in some respects but would vastly increase the scientific interest of the model as a theory of party systems." - From Duplicate 2 ( Spatial Models of Party Competition - Stokes, Donald E ) And Duplicate 3 ( Spatial Models of Party Competition - Stokes, Donald E ) Stokes, Donald E. 1963. “Spatial Models of Party Competition.” American Political Science Review 57(2): 368–77. - criticism of Downsian model: meaning of space is unclear (e.g. unidimensionality, stability of structure of space (is space continuous on all issues?), existence of ordered dimensions and common frame of reference for parties and electorate may be questioned) - positions issues: those that involve advocacy of government actions from a set of alternatives; valence issues: those that merely involve the linking of the parties with some condition that is positively or negatively valued by the electorate - proposal: "we should treat as explicit variables the cognitive phenomena that the prevailing model removes from the discussion by assumption. Bringing these variables into the model would lessen its elegance and parsimony in some respects but would vastly increase the scientific interest of the model as a theory of party systems." -}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{2}
+      \field{title}{{Spatial Models of Party Competition}}
+      \field{volume}{57}
+      \field{year}{1963}
+      \field{pages}{368\bibrangedash 377}
+      \range{pages}{10}
+      \verb{file}
+      \verb :C$\backslash$:/Users/denis/Dropbox/Uni/Mendeley Desktop/Stokes/American Political Science Review/Stokes{\_}1963{\_}Spatial Models of Party Competition.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Wooldridge2002}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b1990024c5bfb2301d5ab37f5a105bc9}{%
+           family={Wooldridge},
+           familyi={W\bibinitperiod},
+           given={Jeffrey\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oklahoma City, OK}%
+      }
+      \list{publisher}{1}{%
+        {South-Western}%
+      }
+      \strng{namehash}{b1990024c5bfb2301d5ab37f5a105bc9}
+      \strng{fullhash}{b1990024c5bfb2301d5ab37f5a105bc9}
+      \strng{authornamehash}{b1990024c5bfb2301d5ab37f5a105bc9}
+      \strng{authorfullhash}{b1990024c5bfb2301d5ab37f5a105bc9}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{WEEK 17 Data Problems: Endogeneity Measurement Error: Wooldridge: Chapter 9.3 (291-298) - measurement error in DV can cause bias if systematically related to one or more of the explanatory variables - measurement error in EV does not cause inconsistency when error terms are uncorrelated with EV, but causes inconsistency - however: when classical errors-in-variances (i.e. measurement error is uncorrelated with unobserved EV), then observed EV and e are correlated: covariance between x and e is variance of measurement error - attentuation bias - mostly, measurement error in one variable causes inconsistency in all estimators (unless EVs are uncorrelated) Non-Random Sampling: Wooldridge: Chapter 9.4 (298-305) - sometimes no bias: sample selected based on the independent variables/exogenous sample selection - bias when sample selected based on the dependent variable/endogenous sample selection - LAD (least absolute deviations), effectively gives less weight to large residuals Omitted Variable Bias: Wooldridge: Chapter 15.1 (462-465) - three options: ignore (bad), find proxies, when panel analysis: FE/FD when omitted vars are time-invariant - IV: uncorrelated with the error-term (containing the omitted variable) and related to the edxogenous EV - can test second assumption (463) Simultaneity: Wooldridge: Chapter 16.2 (506-507) Week 18: Instrumental Variables - IV solves endogeneity and errors-in-variables problem - unobserved variables (that could possibly be correlated with the isntrument) are in the error term u - an explanatory variable x and u are correlated: cov(x,u) != 0 - instrument z needs to satisfy two assumptions: cov(z,u) = 0 civ(z,x) != 0 - IV can create greater or lesser effects than OLS - Iwhen cov (z,x) is weak, IV estimates are consistent, but standard errors huge - even small ammount of correlation cov(z,u) can cause great problems in IV, especially when cov (z,x) is weak - R-squared after IV has no natural interpretation - in multiple regression, instrument and outcome need to be correlated after partialling out 2SLS - use of instruments for mutliple endogenous variables - if several z are uncorrelated with u, so is a linear combination of them; find the lienar combination that is most strongly correlated with y - multicollinearity more serious with OLS - with multiple endogeneous EV, we need to consider the order condition for identification of an equation: need as many excluded exogenous vars as there are included endogenous vars. Rank condition (cf. Wooldrifge 1999, Chap 5). - Testing mutliple hypotheses after 2SLS estimation Testing for Endogeneity - estimate reduced form for y2 regressing on all exogenous vars, incliding those int hes tructural equation and the additional IVs, obtain the residuals - add residuals to the structural equation which included y2 and test of its significance using OLS; if its coefficient is different from zero, y2 is indeed endogenous Testing overidentifying restrictions - estimate structural equations by 2SLS and obtain the 2SLS residuals - regress these residuals on all exogenous vars, obtain R-squared - chi-squared test 2SLS with heteroskedasicity WEEK 19 Simultaneous Equations and Seemingly Unrelated Regressions (Chapter 16) - each equation has a causal, ceteris paribus interpretation - we use counterfactual reasoning - equilibrium concept WEEK 23 Limited Dependent Variables Truncation: Greene: Chapter 22; Wooldridge: Chapter 17, p. 555 Censored Data: Greene: Chapter 22; Wooldridge: Chapter 17, p. 550 Sample Selection: Greene: Chapter 22; Wooldridge: Chapter 17 , p. 557}
+      \field{edition}{2nd}
+      \field{title}{{Introductory Econometrics. A Modern Approach.}}
+      \field{year}{2002}
+      \field{pages}{805}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/denis/Dropbox/Uni/Mendeley Desktop/Wooldridge/Unknown/Wooldridge{\_}2002{\_}Introductory Econometrics. A Modern Approach.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.getcited.org/pub/102998395
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

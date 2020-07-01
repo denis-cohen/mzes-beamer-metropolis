@@ -1,0 +1,230 @@
+% !TeX program = lualatex
+\documentclass[10pt, aspectratio=169]{beamer}
+\usepackage{pgfpages}
+\usepackage{fontawesome}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphics}
+\usepackage[T1]{fontenc}
+
+% Bibliography (choose backend according to your preferences)
+\usepackage[authordate, natbib, useprefix=true, isbn=false,url=false, doi=false, backend=biber]{biblatex-chicago}  
+\bibliography{../../../../library.bib}
+\setbeamertemplate{bibliography item}[text]
+
+% Size of bibliography entries
+\renewcommand*{\bibfont}{\footnotesize}
+
+% new citep command
+\usepackage{fixltx2e}
+\newcommand{\cpsh}[2][]{\textsuperscript{\fontsize{6}{6}\textcolor{mzescyan}{[{#1}\citealp[]{#2}]}}}
+\newcommand{\cpsl}[2][]{\textsubscript{\fontsize{6}{6}\textcolor{mzescyan}{[{#1}\citealp[]{#2}]}}}
+\newcommand{\csh}[2][]{\textsuperscript{\fontsize{6}{6}\textcolor{mzescyan}{[{#1}\citealp[]{#2};}}}
+\newcommand{\csl}[2]{\textsubscript{\fontsize{6}{6}\textcolor{mzescyan}{\hphantom{[{#2}}\citealp{#1}]}}}
+\newcommand{\cpshl}[3][]{\textcolor{mzescyan}{\rlap{\csh[#1]{#2}}{\csl{#3}{#1}}}}
+\newcommand{\cpsm}[2][]{\textcolor{mzescyan}{\fontsize{6}{6} [{#1}\citealp[]{#2}]}}
+
+% new color emphasize commands
+\newcommand{\cemph}[1]{\textcolor{mzescyan}{#1}}
+\newcommand{\gemph}[1]{\textcolor{mzesgold}{#1}}
+
+% Layout
+\mode<presentation>
+{
+	\usetheme[progressbar=frametitle]{metropolis}
+	\useoutertheme[]{metropolis}
+	\useinnertheme[]{circles}
+	
+	
+	%remove navigation symbols
+	\setbeamertemplate{navigation symbols}{}
+	
+	% define colors
+	\definecolor{mzescyan}{RGB}{0,118,150}
+	\definecolor{mzesgold}{RGB}{209,163,84}
+	\definecolor{mzesdarkgold}{RGB}{127, 110, 87}
+	\definecolor{mzesbg}{RGB}{255,255,255} % white
+	% \definecolor{mzesbg}{RGB}{252,253,254} % grayish
+	
+	% Blocks
+	\setbeamercolor{block body}{bg=mzescyan!10, fg=black}
+	\setbeamercolor{block body alerted}{bg=normal text.bg!90!black}
+	\setbeamercolor{block body example}{bg=normal text.bg!90!black}
+	\setbeamercolor{block title alerted}{use={normal text,alerted text},fg=mzesgold,bg=black}
+	\setbeamercolor{block title}{bg=mzescyan, fg = mzesbg}
+	\setbeamercolor{block title example}{use={normal text},fg=example text.fg!75!normal text.fg,bg=normal text.bg!75!black}
+	
+	% Frames
+	\setbeamercolor{fine separation line}{fg=mzesgold}
+	\setbeamercolor{item projected}{fg=mzesbg}
+	
+	% Miniframes
+	\setbeamercolor{section in head/foot}{fg=mzescyan,bg=mzesbg}
+	
+	% Title
+	\setbeamercolor{background}{bg=mzesbg}
+	\setbeamercolor{background canvas}{bg=mzesbg}
+	\setbeamercolor{title}{fg=mzescyan, bg = mzescyan!5}
+	\setbeamercolor{titlelike}{fg=mzescyan}
+	\setbeamercolor{subsection in head/foot}{bg=mzesgold!10, fg = mzescyan}
+	\setbeamercolor{author in head/foot}{bg=mzescyan, fg = mzesbg}
+	\setbeamercolor{title in head/foot}{bg=mzescyan!5, fg = mzescyan}
+	\setbeamercolor{date in head/foot}{bg=mzesbg, fg = mzescyan}
+	\setbeamercolor{page in head/foot}{bg=mzesbg, fg = mzesgold}
+	\setbeamercolor{frametitle}{fg=mzescyan, bg = mzesbg}
+	\setbeamercolor{item}{fg=mzescyan}
+	\setbeamercolor{normal text}{bg=mzesbg,fg=black}
+	\setbeamercolor{alerted text}{bg=mzesbg,fg=mzesgold}
+	\setbeamercovered{invisible}
+}
+
+% Font
+\setbeamerfont{frametitle, frametitle continuation}{size=\large}
+\setbeamerfont{titlelike}{size=\large}
+\setbeamerfont{footline}{size=\scriptsize}
+
+% Logo
+\logo{\includegraphics[width=12em]{mzes-logo-solo-4c.eps}}
+\newcommand{\nologo}{\setbeamertemplate{logo}{}}
+% customize foot line
+\makeatother
+\setbeamertemplate{footline}
+{
+	\leavevmode%
+	\hbox{%
+		\begin{beamercolorbox}[wd=.25\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+			\usebeamerfont{author in head/foot}\insertshortauthor
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.6\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+			\usebeamerfont{title in head/foot}\insertshorttitle
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.15\paperwidth,ht=2.25ex,dp=1ex,center]{page in head/foot}%
+			\insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
+	\end{beamercolorbox}}%
+	\vskip0pt%
+}
+\makeatletter
+
+% Change the width of the progress bar to make it more visible (Code taken from here: https://github.com/matze/mtheme/issues/237)
+\makeatletter
+\setlength{\metropolis@titleseparator@linewidth}{0.5pt} % Title page
+\setlength{\metropolis@progressonsectionpage@linewidth}{1pt} % Progress bar on section page
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt} % Progress bar in header
+\makeatother
+
+\setbeamertemplate{navigation symbols}{}
+\providecommand*\email[1]{\href{mailto:#1}{#1}}
+
+% title slide
+\title[Short Title] % (optional, use only with long paper titles)
+{\large \textbf{MZES Beamer Metropolis Theme}} 
+\subtitle{\small A Modern MZES Look for \LaTeX-generated PDF Slides}
+
+\author[Cohen \& Co-Author]{%
+	\texorpdfstring{
+		\begin{columns}
+			\begin{column}{0.45\textwidth}
+				Denis Cohen \\
+				\scriptsize University of Mannheim \vspace{1em} \\
+				\tiny \hspace*{1em} \faEnvelope \hspace{.5em} \texttt{\email{denis.cohen@mzes.uni-mannheim.de}} \\
+				\tiny \hspace*{1em} \faGlobe \hspace{.5em}  \texttt{\href{https://denis-cohen.github.io/}{denis-cohen.github.io}} \\
+				\tiny \hspace*{1em} \faTwitter \hspace{.5em} \texttt{\href{https://twitter.com/denis_cohen}{@denis\_cohen}}
+			\end{column}
+			\begin{column}{0.45\textwidth}
+				Author 2 \\
+				\scriptsize Institution 2 \vspace{1em} \\
+				\tiny \hspace*{1em} \faEnvelope \hspace{.5em} \texttt{\email{author2@institution2.edu}} \\
+				\tiny \hspace*{1em} \faGlobe \hspace{.5em}  \texttt{\href{https://}{author2.com}} \\
+				\tiny \hspace*{1em} \faTwitter \hspace{.5em} \texttt{\href{https://twitter.com/}{@author2}}
+			\end{column}
+		\end{columns}
+	}
+	{Cohen \& Co-Author}
+}
+\date{}
+\institute{Cool Conference, Cool Place \\ \today}
+\subject{}
+
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\nologo{ % no logos except on the title page
+	\section{Key Facts}
+	\begin{frame}{Outline}
+		\tableofcontents[currentsection]
+	\end{frame}
+
+	\begin{frame}{What is the MZES Beamer Metropolis Theme?}
+		\begin{itemize}
+			 \item This theme, inspired by the MZES corporate design, is a customization of the popular \href{https://github.com/matze/mtheme}{\texttt{metropolis}} theme for Beamer
+			 \item A matching MZES Xaringan Theme is available \href{https://github.com/denis-cohen/mzes-xaringan-metropolis/}{here}
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{MZES Xaringan Metropolis vs MZES Beamer Metropolis}
+	\small
+	\cemph{Similarities}
+		\begin{itemize}
+			\item Both themes use MZES corporate colors.
+			\item Both feature title slides with full contact and social media information for multiple authors.
+			\item Both embed the MZES Logo on the first slide.
+			\item Both use the 16:9 aspect ratio (instead of 4:3), the default on most projectors and screens nowadays.
+			\item Both allow for emphases in \cemph{MZES cyan} and \gemph{MZES gold}.
+		\end{itemize}
+	\end{frame}
+
+		\begin{frame}{MZES Xaringan Metropolis vs MZES Beamer Metropolis}
+	\small
+	\cemph{Differences}
+		\begin{itemize}
+			\item Beamer produces static PDF slides, Xaringan produces dynamic, interactive HTML5 slides.
+			\item Beamer slides are written in LaTeX, Xaringan slides are written in RMarkdown.
+			\item Unlike Beamer, Xaringan allows for R code to be evaluated while knitting the code and for (interactive) R output to be directly embedded in the presentation.
+			\item Unlike the Beamer Theme, the Xaringan Theme does not support a permanent footer.
+			\item Unlike the Beamer Theme, the Xaringan Theme does not support progress bars on section title slides. Progress bars are only displayed underneath the slide title.
+			\item The Xaringan Theme does not support the Beamer Theme's custom blocks, though equivalent classes can be defined in \texttt{mtheme.css}.
+			\item The Xaringan Theme does not support the Beamer Theme's optional custom citation commands.
+			\item Whereas Beamer directly supports BibTeX references, Xaringan requires a little \href{https://github.com/yihui/xaringan/wiki/Bibliography-and-citations}{work-around} using the R package \href{https://cran.r-project.org/web/packages/RefManageR/index.html}{\texttt{RefManageR}}.
+		\end{itemize}
+	\end{frame}
+	
+	\section{Cool Features}
+	\begin{frame}{A Sample Slide}
+		A sample list:
+		\begin{itemize}
+			\item \textcolor{mzesgold}{emphasis 1}
+			\item \textcolor{mzescyan}{emphasis 2}
+			\item \textcolor{mzesdarkgold}{emphasis 3}
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Some Sample Blocks}
+		\begin{block}{Remark}
+			Sample text
+		\end{block}
+		
+		\begin{alertblock}{Important theorem}
+			Sample text
+		\end{alertblock}
+	\end{frame}
+	
+	\begin{frame}{Some Custom Referencing Styles}
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\cpsh{Downs1957c} 
+	
+	Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\cpsl{Stokes1963} 
+	
+	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\cpshl[e.g. ]{KKV, Greene2003, Greene2012}{Wooldridge2002, Gelman2007} 
+	
+	\end{frame}
+	
+	\section{Bibliography}
+	\begin{frame}[allowframebreaks]{Bibliography}
+	\printbibliography[heading=none]
+	\end{frame}
+}
+\end{document}
